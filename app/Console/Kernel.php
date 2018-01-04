@@ -14,6 +14,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         GoogleLocations::class,
+        DuckDuckGoFirstUrl::class,
     ];
 
     /**
